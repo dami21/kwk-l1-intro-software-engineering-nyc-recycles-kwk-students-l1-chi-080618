@@ -22,21 +22,25 @@ end
 def borough(first_recycle_bin)
   puts first_recycle_bin["borough"]
 end
+puts borough(first_recycle_bin)
 
 def all_keys
-puts first_recycle_bin.each do |keys, values|
+first_recycle_bin.each do |keys, values|
   puts "#{keys}"
 end 
+puts all_keys
 
 def all_data(first_recycle_bin)
-  puts first_recycle_bin.each do |keys, values|
-    puts "#{values}"
+first_recycle_bin.each do |keys, values|
+  puts "#{values}"
 end
+puts all(first_recycle_bin)
 
 def key_and_data(first_recycle_bin)
-  puts first_recycle_bin.each do |keys, values|
-    puts "#{keys}, #{values}"
+puts first_recycle_bin.each do |keys, values|
+  puts "#{keys}, #{values}"
 end
+puts key_and_data(first_recycle_bin)
 
   
   
