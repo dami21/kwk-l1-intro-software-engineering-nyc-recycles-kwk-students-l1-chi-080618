@@ -14,6 +14,28 @@ first_recycle_bin =  {
   "park_site_name"=>"227th St. Plgd"
 }
 
+def address 
+  puts first_recycle_bin["address"]
+end
+
+
+def borough(first_recycle_bin)
+  puts first_recycle_bin["borough"]
+end
+
+def all_keys
+puts first_recycle_bin.each do |keys, values|
+  puts "#{keys}"
+end 
+
+def all_data(first_recycle_bin)
+  puts first_recycle_bin.each do |keys, values|
+    puts "#{values}"
+end
+
+  
+  
+
 
 #1. Define a method `address`, that takes a hash as an argument.
 #This method should return the value of the address key in the hash.
