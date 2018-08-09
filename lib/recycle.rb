@@ -33,6 +33,11 @@ def all_data(first_recycle_bin)
     puts "#{values}"
 end
 
+def key_and_data(first_recycle_bin)
+  puts first_recycle_bin.each do |keys, values|
+    puts "#{keys}, #{values}"
+end
+
   
   
 
